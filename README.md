@@ -1,2 +1,2 @@
-# dio_database_Experience
-Desafios do bootcamp  DIO Database Experience
+# DIO - Bootcamp Database Experience
+Repositório para colocar os desafios do bootcamp  DIO Database Experience
