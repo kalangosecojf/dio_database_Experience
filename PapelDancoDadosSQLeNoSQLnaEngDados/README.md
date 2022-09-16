@@ -16,3 +16,19 @@ Computador com SO de sua preferência(Windows, Linux, Mac OS);
 Agora é a sua vez de ser o Protagonista! 🤩
 
 Bons estudos! 😉
+
+
+
+
+# BD Relacional - SGBD
+ - é o banco de dados que armazena informações normalizada, com relacionamento e tem uma estrutura rigida.
+ - Mysql
+ - Postgres
+ - Oracle
+ - SQL Server
+
+# BD Não Relacional - NoSQL
+ - é o banco de dados que permite trabalhar com dados de estruturas diferentes
+ - MongoBD
+ - Kassandra
+
