@@ -20,14 +20,15 @@ Bons estudos! 😉
 
 
 
-# BD Relacional - SGBD
+# Bancos de Dados Relacionais (SQL)
  - é o banco de dados que armazena informações normalizada, com relacionamento e tem uma estrutura rigida.
+ - SGBD
  - Mysql
  - Postgres
  - Oracle
  - SQL Server
 
-# BD Não Relacional - NoSQL
+# Banco de Dados Não Relacionais (NoSQL) 
  - é o banco de dados que permite trabalhar com dados de estruturas diferentes
  - MongoBD
  - Kassandra
