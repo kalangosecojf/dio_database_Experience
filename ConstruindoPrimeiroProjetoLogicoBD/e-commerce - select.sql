@@ -42,3 +42,12 @@ FROM produto
 GROUP BY categoria
 HAVING count(categoria) > 1;
 
+
+-- Listar Clientes que possui forma de pagamento Ordenado por tipo_pagamento
+SELECT 
+c.*,
+fp.tipo as tipo_pagamento, 
+fp.banco_operadora as operadora
+FROM cliente c
+INNER JOIN forma_pagamento fp ON c.idcliente = fp.cliente_idcliente
+ORDER BY fp.tipo;
