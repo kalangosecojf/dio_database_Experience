@@ -35,3 +35,10 @@ INNER JOIN pagamento pg ON p.idpedido = pg.pedido_idpedido
 INNER JOIN forma_pagamento fp ON pg.forma_pagamento_idforma_pagamento = fp.idforma_pagamento
 WHERE p.status_pedido = 'Em Andamento';
 
+
+-- Listar categorias que possui mais de um produto
+SELECT categoria,count(*) as quantidade_categoria
+FROM produto
+GROUP BY categoria
+HAVING count(categoria) > 1;
+
